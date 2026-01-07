@@ -1,0 +1,17 @@
+# Project configuration for CSIRO Image2Biomass
+# Paths are relative to repo root unless otherwise noted
+
+data_root: data
+train_csv: train.csv
+test_csv: test.csv
+
+# Training
+image_size: 224
+batch_size: 16
+epochs: 1
+lr: 0.001
+seed: 42
+use_tabular: true
+backbone: efficientnet_b0
+out_dir: outputs
+num_workers: 0
