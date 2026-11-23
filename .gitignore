@@ -1,0 +1,13 @@
+# Competition data: download with scripts/download_data.ps1 (not redistributable)
+data/
+
+# Training outputs
+outputs/
+
+__pycache__/
+*.pyc
+.venv/
+.vscode/
+.ipynb_checkpoints/
+kaggle.json
+.DS_Store
